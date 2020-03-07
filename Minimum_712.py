@@ -1,4 +1,4 @@
-class Solution:
+class Minimum_712:
     def minimumDeleteSum(self, s1: str, s2: str) -> int:
         m, n = len(s1), len(s2)
         dp = [[0 for _ in range(n + 1)] for _ in range(m + 1)]
