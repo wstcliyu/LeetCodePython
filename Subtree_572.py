@@ -38,7 +38,7 @@ class Subtree_572:
         def toString(root: TreeNode) -> str:
             if not root:
                 return "X"
-            return "#" + str(root.val) + toString(root.left) + "," + toString(root.right)
+            return "#" + str(root.val) + "," + toString(root.left) + "," + toString(root.right)
         return toString(t) in toString(s)
     
 
